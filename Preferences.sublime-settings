@@ -1,27 +1,19 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
 {
+	"font_face": "Ubuntu Mono",
+	"font_size": 15,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 0,
-	"auto_complete_triggers":
-	[
-		{
-			"characters": "<",
-			"selector": "text.html"
-		},
-		{
-			"characters": ".",
-			"selector": "source"
-		}
-	],
 	"auto_complete_with_fields": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
-	"font_face": "Ubuntu Mono",
-	"font_size": 15,
 	"ignored_packages":
 	[
-		"Vintage"
+		"SideBarEnhancements",
+		"Vintage",
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
@@ -32,15 +24,15 @@
 	"match_brackets_content": false,
 	"match_brackets_square": false,
 	"material_theme_accent_sky": true,
-	"material_theme_arrow_folders": true,
-	"material_theme_big_fileicons": true,
-	"material_theme_bright_scrollbars": true,
-	"material_theme_compact_sidebar": true,
+	/*"material_theme_arrow_folders": true,*/
+	/*"material_theme_big_fileicons": true,*/
+	/*"material_theme_bright_scrollbars": true,*/
+	/*"material_theme_compact_sidebar": true,*/
 	"material_theme_contrast_mode": true,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
 	"material_theme_tabs_autowidth": true,
-	"material_theme_tree_headings": true,
+	/*"material_theme_tree_headings": true,*/
 	"remember_full_screen": true,
 	"rulers":
 	[
@@ -53,5 +45,36 @@
 	"theme": "Material-Theme-Palenight.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+	"word_wrap": false,
+	/*"material_theme_accent_acid-lime": true,*/
+	/*"material_theme_accent_acid-lime": true,*/
+	/*"material_theme_accent_blue": true,*/
+	/*"material_theme_accent_scrollbars": true,*/
+	/*"material_theme_accent_titlebar": true,*/
+	/*"material_theme_compact_panel": true,*/
+	/*"material_theme_panel_separator": true,*/
+	/*"material_theme_bullet_tree_indicator": true,*/
+	/*"material_theme_disable_fileicons": true,*/
+	/*"material_theme_disable_folder_animation": true,*/
+	/*"material_theme_compact_sidebar": true,*/
+	/*"material_theme_compact_sidebar": true,*/
+	/*"material_theme_bullet_tree_indicator": true,*/
+	/*"material_theme_bold_tab": true,*/
+	/*"material_theme_accent_acid-lime": true,*/
+	/*"material_theme_accent_blue": true,*/
+	/*"material_theme_accent_acid-lime": true,*/
+	/*"material_theme_accent_blue": true,*/
+	/*"material_theme_accent_scrollbars": true,*/
+	/*"material_theme_accent_titlebar": true,*/
+	/*"material_theme_compact_panel": true,*/
+	/*"material_theme_compact_panel": true,*/
+	/*"material_theme_panel_separator": true,*/
+	"material_theme_bright_scrollbars": true,
+	/*"material_theme_titlebar": true,*/
+	/*"material_theme_arrow_folders": true,*/
+	"material_theme_big_fileicons": true,
+	/*"material_theme_bullet_tree_indicator": true,*/
+	/*"material_theme_compact_sidebar": true,*/
+	/*"material_theme_disable_fileicons": true,*/
+	"material_theme_tree_headings": true,
 }
