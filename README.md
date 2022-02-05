@@ -1,4 +1,17 @@
 # Sublime Configuration
 My own configuration in Sublime Text 3.
 
-packages: A File Icon, ayu, brackethighlighter, Dracula Color Scheme, Emmet, LiveReload, LSP, LSP-pyright, PackageResourceViewer, sublack, Material Theme, SideBarEnhacements
+"installed_packages":
+	[
+		"A File Icon",
+		"Agila Theme",
+		"BracketHighlighter",
+		"Dracula Color Scheme",
+		"Emmet",
+		"LSP",
+		"LSP-pyright",
+		"Material Theme",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+	],
